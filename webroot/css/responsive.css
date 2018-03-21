@@ -1,0 +1,89 @@
+/* =================================================================================
+LG
+================================================================================= */
+@media (min-width: 1201px) {
+	.topmenu{display: none;}
+}
+
+/* =================================================================================
+MD
+================================================================================= */
+@media (max-width: 992px) {
+	.nps-panels{
+		height: 560px!important;
+	}
+	.profilebox b{display: none;}
+	.searchform{display: none;}
+	.sidebar{display: none;}
+	.content{margin-left: 0 !important;}
+	.sidebar-open-button{display: none;}
+	.sidebar-open-button-mobile{display: block;}
+	.social-stats{bottom: 100px;}
+	.topstats li{width: 33%;}
+	.demo-sidebarmenu .sidebar{display: block;}
+}
+
+/* =================================================================================
+SM
+================================================================================= */
+@media (max-width: 768px) {
+	/*.page-header .right{display: none;}*/
+	.sidebar{display: none; width: 100%;}
+	.presentation .list{float: left; margin-top: 20px;}
+	.container-default, .container-widget{margin-left:-20px; margin-right: -20px;}
+	.container-padding, .container-no-padding{margin-left:-40px; margin-right: -40px;}
+	.social-content{padding-left: 10px; padding-right: 10px;}
+	.chart-with-stats .top-label{right: 20px;}
+	.mailbox-menu .menu li{display: block; width: 100%; border-right:none; border-bottom: 1px solid rgba(0, 0, 0, 0.08);}
+	.chat .title{height: auto;}
+	.profile-left .btn{display: none;}
+	.topstats li{width: 50%;}
+}
+
+/* =================================================================================
+XS
+================================================================================= */
+@media (max-width: 480px) {
+	/*.page-header .right{display: none;}*/
+	/*.top-right{display: none;}*/
+	/*.sidebar-open-button-mobile{float: right;}*/
+/*	.applogo{
+		text-align: left;
+		padding-left: 85px;
+		background: none;
+		display: block;
+		position: absolute;
+		width: 100%;
+		z-index: -4;
+	}*/
+/*
+	.appLogo {display: none};
+
+	.topstats li{width: 100%;}
+	.login-form form {
+		border: 0!important;
+	}
+	.login-container{
+		margin-top: 12px!important;
+	}
+	body{
+		background-color: #fff!important;
+	}
+	.nps-panels{
+		height: auto!important;
+	}*/
+
+
+
+	.sidebar{display: none; width: 100%;}
+	.presentation .list{float: left; margin-top: 20px;}
+	.container-default, .container-widget{margin-left:-20px; margin-right: -20px;}
+	.container-padding, .container-no-padding{margin-left:-40px; margin-right: -40px;}
+	.social-content{padding-left: 10px; padding-right: 10px;}
+	.chart-with-stats .top-label{right: 20px;}
+	.mailbox-menu .menu li{display: block; width: 100%; border-right:none; border-bottom: 1px solid rgba(0, 0, 0, 0.08);}
+	.chat .title{height: auto;}
+	.profile-left .btn{display: none;}
+	.topstats li{width: 50%;}
+
+}

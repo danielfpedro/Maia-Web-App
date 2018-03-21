@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Preenche Cidades</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <body>
+    
+        <select
+            id="estados">
+
+            <option value="">Selecione o Estado:</option>
+            <option value="0">Rio de Janeiro</option>
+            <option value="1">São Paulo</option>
+        </select>
+        <select id="cidades">
+            <option value=""></option>
+        </select>
+
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="plugin.js"></script>
+        
+        <script>
+            $(function(){
+                $('#estados').preencheCidades({
+                    targetSelector: '#cidades',
+                    citiesDefaultText: 'Selecione o Estado:',
+                    source: 'pega_cidades.php',
+                    extraData: function () {
+                        return {
+                            tey: $('#estados').val()
+                        };
+                    },
+                    beforeLoad: function() {
+                        console.log('Before load cities');
+                    },
+                    afterLoad: function() {
+                        console.log('After load cities');
+                    },
+                    onLoadSuccess: function(response) {
+                        console.log('Carregou fino', response);
+                    },
+                    onLoadError: function(jqXHR, textStatus, error) {
+                        console.log('Deu ruim');
+                    },
+                    afterCreateOptions: function() {
+                        console.log('Criou o fino.');
+                    },
+                    onCitiesReseted: function() {
+                        console.log('Resetou as cidades');
+                    },
+                    _createOptions: function(data) {
+                        var options = '';
+                        
+                        $.each(data, function(key, value) {
+                            options += '<option value="'+value.id+'">'+value.name+' - Outra coisa</option>';
+                        });
+
+                        return options;
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>

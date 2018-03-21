@@ -1,0 +1,28 @@
+{
+  "name": "octopo-web-app",
+  "version": "1.0.0",
+  "description": "Sistema Web para Auditoria de lojas.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "sweetalert": "^2.1.0",
+    "uglify-js": "^3.3.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g2solucoes/octopo-web-app.git"
+  },
+  "author": "",
+  "private": "true",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/g2solucoes/octopo-web-app/issues"
+  },
+  "homepage": "https://github.com/g2solucoes/octopo-web-app#readme"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "preenche_cidades",
+  "authors": [
+    "Daniel Pedro <danielfpedro@gmail.com>"
+  ],
+  "description": "",
+  "main": "dist/plugin.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src/demo.html",
+    "src/pega_cidades.php"
+  ],
+  "keywords": [],
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}

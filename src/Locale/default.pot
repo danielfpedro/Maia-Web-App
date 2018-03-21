@@ -1,0 +1,527 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2017-05-24 12:31-0300\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/Component/ArquivoDeProdutosComponent.php:51
+msgid "Extensão do arquivo ({0}) inválida. Válidas ({1})"
+msgstr ""
+
+#: Controller/Component/ArquivoDeProdutosComponent.php:69
+msgid "O arquivo enviado contém {0}MB mas deve ter no máximo {1}MB."
+msgstr ""
+
+#: Controller/Component/ArquivoDeProdutosComponent.php:121
+msgid "O arquivo possui {0} produtos para deve conter no máximo {1}"
+msgstr ""
+
+#: Controller/Painel/ChecklistsController.php:137
+msgid "The checklist has been deleted."
+msgstr ""
+
+#: Controller/Painel/ChecklistsController.php:139
+msgid "The checklist could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Painel/ChecklistsPerguntasImagensController.php:119
+msgid "Arquivo enviado é de extensão inválida. Enviado ({0}) Permitida ({1})"
+msgstr ""
+
+#: Controller/Painel/ChecklistsPerguntasSetoresOrdemController.php:77;104
+msgid "The checklists perguntas setores ordem has been saved."
+msgstr ""
+
+#: Controller/Painel/ChecklistsPerguntasSetoresOrdemController.php:81;108
+msgid "The checklists perguntas setores ordem could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Painel/ChecklistsPerguntasSetoresOrdemController.php:128
+msgid "The checklists perguntas setores ordem has been deleted."
+msgstr ""
+
+#: Controller/Painel/ChecklistsPerguntasSetoresOrdemController.php:130
+msgid "The checklists perguntas setores ordem could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Painel/LojasController.php:70;98
+msgid "A loja foi salva com sucesso."
+msgstr ""
+
+#: Controller/Painel/LojasController.php:74;102
+msgid "A loja não foi salva. Por favor, tente novamente."
+msgstr ""
+
+#: Controller/Painel/LojasController.php:124
+msgid "The loja has been deleted."
+msgstr ""
+
+#: Controller/Painel/LojasController.php:126
+msgid "The loja could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/Painel/UsuariosController.php:194
+msgid "O Usuário foi deletado."
+msgstr ""
+
+#: Controller/Painel/UsuariosController.php:196
+msgid "O Usuário não foi deletado."
+msgstr ""
+
+#: Controller/Painel/UsuariosController.php:278
+msgid "Você receberá uma mensagem em <strong>{0}</strong> com as instruções para redefinir a senha"
+msgstr ""
+
+#: Template/Layout/error.ctp:35
+#: Template/Error/error400.ctp:36
+#: Template/Error/error500.ctp:41
+msgid "Error"
+msgstr ""
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr ""
+
+#: Template/Painel/Checklists/add.ctp:3
+#: Template/Painel/Checklists/edit.ctp:3
+#: Template/Painel/Checklists/view.ctp:3
+msgid "Actions"
+msgstr ""
+
+#: Template/Painel/Checklists/add.ctp:4
+#: Template/Painel/Checklists/edit.ctp:10
+#: Template/Painel/Checklists/view.ctp:6
+msgid "List Checklists"
+msgstr ""
+
+#: Template/Painel/Checklists/add.ctp:10
+msgid "Add Checklist"
+msgstr ""
+
+#: Template/Painel/Checklists/add.ctp:18
+#: Template/Painel/Checklists/edit.ctp:24
+#: View/Helper/FormHelper.php:1895
+msgid "Submit"
+msgstr ""
+
+#: Template/Painel/Checklists/edit.ctp:5
+msgid "Delete"
+msgstr ""
+
+#: Template/Painel/Checklists/edit.ctp:7
+#: Template/Painel/Checklists/view.ctp:5
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: Template/Painel/Checklists/edit.ctp:16
+#: Template/Painel/Checklists/view.ctp:4
+msgid "Edit Checklist"
+msgstr ""
+
+#: Template/Painel/Checklists/form.ctp:2
+msgid "Editar Checklist \"{0}\""
+msgstr ""
+
+#: Template/Painel/Checklists/index.ctp:85
+msgid "{0} ({1})"
+msgstr ""
+
+#: Template/Painel/Checklists/perguntas_form.ctp:10
+msgid "Perguntas de \"{0}\""
+msgstr ""
+
+#: Template/Painel/Checklists/view.ctp:5
+msgid "Delete Checklist"
+msgstr ""
+
+#: Template/Painel/Checklists/view.ctp:7
+msgid "New Checklist"
+msgstr ""
+
+#: Template/Painel/Checklists/view.ctp:14
+msgid "Nome"
+msgstr ""
+
+#: Template/Painel/Checklists/view.ctp:18
+msgid "Ativo"
+msgstr ""
+
+#: Template/Painel/Checklists/view.ctp:22
+msgid "Id"
+msgstr ""
+
+#: Template/Painel/Checklists/view.ctp:26
+msgid "Grupo Id"
+msgstr ""
+
+#: Template/Painel/Checklists/view.ctp:30
+msgid "Criado Em"
+msgstr ""
+
+#: Template/Painel/ChecklistsPerguntasRespostas/view.ctp:2
+msgid "Visita em \"{0}\""
+msgstr ""
+
+#: Template/Painel/Concorrencias/index.ctp:2
+msgid "Concorrências {0}"
+msgstr ""
+
+#: Template/Painel/Concorrencias/lista_de_produtos.ctp:2
+msgid "Lista de Produtos concorrência \"{0}\""
+msgstr ""
+
+#: Template/Painel/Concorrencias/view.ctp:2
+msgid "Preços em \"{0}\""
+msgstr ""
+
+#: Template/Painel/ConcorrenciasProdutos/form.ctp:2
+msgid "Adicionar Produto em \"{0}\""
+msgstr ""
+
+#: Template/Painel/ConcorrenciasProdutos/form.ctp:2
+msgid "Editar Produto em \"{0}\""
+msgstr ""
+
+#: Template/Painel/ConcorrenciasProdutos/index.ctp:2
+msgid "Lista de Produtos em \"{0}\""
+msgstr ""
+
+#: Template/Painel/ConcorrenciasProdutos/index.ctp:83
+msgid "{0} - {1}"
+msgstr ""
+
+#: Template/Painel/Concorrentes/index.ctp:73
+#: Template/Painel/ModelosAlternativas/index.ctp:82
+#: Template/Painel/Usuarios/index.ctp:112
+msgid "Você realmente deseja deletar o usuário \"{0}\"?"
+msgstr ""
+
+#: Template/Painel/Lojas/form.ctp:2
+msgid "Editar Loja \"{0}\""
+msgstr ""
+
+#: Template/Painel/ModelosAlternativas/form.ctp:2
+msgid "Editar Modelo \"{0}\""
+msgstr ""
+
+#: Template/Painel/Setores/form.ctp:2
+msgid "Editar Grupo \"{0}\""
+msgstr ""
+
+#: Template/Painel/Setores/index.ctp:78
+msgid "Você realmente deseja deletar o Grupo \"{0}\"?"
+msgstr ""
+
+#: Template/Painel/Usuarios/form.ctp:2
+msgid "Editar Usuário \"{0}\""
+msgstr ""
+
+#: Template/Painel/Visitas/edit.ctp:2
+msgid "Alterar prazo da visita \"<strong>{0} / {1}</strong>\""
+msgstr ""
+
+#: Template/Painel/Visitas/index.ctp:2
+msgid "Visitas {0}"
+msgstr ""
+
+#: Template/Painel/Visitas/index.ctp:188
+msgid "Você realmente deseja deletar a Visita de \"{0}\" em \"{1}\" da Checklist \"{2}\"?"
+msgstr ""
+
+#: View/Helper/KoletorHelper.php:30
+msgid "<span class=\"label label-{0}\">{1}</span>"
+msgstr ""
+
+#: View/Helper/KoletorHelper.php:49
+msgid "Você realmente deseja deletar {0} \"{1}\"?"
+msgstr ""
+
+#: View/Helper/KoletorHelper.php:60
+msgid "<span class=\"fa fa-{0}\"></span>"
+msgstr ""
+
+#: Template/Error/error400.ctp:37
+msgid "The requested address {0} was not found on this server."
+msgstr ""
+
+#: Template/Error/error500.ctp:39
+msgid "An Internal Error Has Occurred"
+msgstr ""
+
+#: Controller/Component/AuthComponent.php:496
+msgid "You are not authorized to access that location."
+msgstr ""
+
+#: Controller/Component/CsrfComponent.php:155
+msgid "Missing CSRF token cookie"
+msgstr ""
+
+#: Controller/Component/CsrfComponent.php:159
+msgid "CSRF token mismatch."
+msgstr ""
+
+#: Error/ExceptionRenderer.php:258
+msgid "Not Found"
+msgstr ""
+
+#: Error/ExceptionRenderer.php:260
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+#: Http/Response.php:2258
+msgid "The requested file contains `..` and will not be read."
+msgstr ""
+
+#: Http/Response.php:2269
+msgid "The requested file was not found"
+msgstr ""
+
+#: I18n/Number.php:90
+msgid "{0,number,#,###.##} KB"
+msgstr ""
+
+#: I18n/Number.php:92
+msgid "{0,number,#,###.##} MB"
+msgstr ""
+
+#: I18n/Number.php:94
+msgid "{0,number,#,###.##} GB"
+msgstr ""
+
+#: I18n/Number.php:96
+msgid "{0,number,#,###.##} TB"
+msgstr ""
+
+#: I18n/Number.php:88
+msgid "{0,number,integer} Byte"
+msgid_plural "{0,number,integer} Bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} from now"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} after"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} before"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:114
+msgid "just now"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:151
+msgid "about a second ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:152
+msgid "about a minute ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:153
+msgid "about an hour ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:154;332
+msgid "about a day ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:155;333
+msgid "about a week ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:156;334
+msgid "about a month ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:157;335
+msgid "about a year ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:168
+msgid "in about a second"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:169
+msgid "in about a minute"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:170
+msgid "in about an hour"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:171;346
+msgid "in about a day"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:172;347
+msgid "in about a week"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:173;348
+msgid "in about a month"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:174;349
+msgid "in about a year"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:304
+msgid "today"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:370
+msgid "%s ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:371
+msgid "on %s"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:47;126;316
+msgid "{0} year"
+msgid_plural "{0} years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:51;129;319
+msgid "{0} month"
+msgid_plural "{0} months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:57;132;322
+msgid "{0} week"
+msgid_plural "{0} weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:59;135;325
+msgid "{0} day"
+msgid_plural "{0} days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:64;138
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:68;141
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:72;144
+msgid "{0} second"
+msgid_plural "{0} seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ORM/RulesChecker.php:57
+msgid "This value is already in use"
+msgstr ""
+
+#: ORM/RulesChecker.php:104
+msgid "This value does not exist"
+msgstr ""
+
+#: ORM/RulesChecker.php:128
+msgid "The count does not match {0}{1}"
+msgstr ""
+
+#: Utility/Text.php:899
+msgid "and"
+msgstr ""
+
+#: Validation/Validator.php:103
+msgid "This field is required"
+msgstr ""
+
+#: Validation/Validator.php:104
+msgid "This field cannot be left empty"
+msgstr ""
+
+#: Validation/Validator.php:1801
+msgid "The provided value is invalid"
+msgstr ""
+
+#: View/Helper/FormHelper.php:1016
+msgid "New %s"
+msgstr ""
+
+#: View/Helper/FormHelper.php:1019
+msgid "Edit %s"
+msgstr ""
+
+#: View/Helper/HtmlHelper.php:793
+msgid "Home"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:540
+msgid "January"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:541
+msgid "February"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:542
+msgid "March"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:543
+msgid "April"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:544
+msgid "May"
+msgstr "Pinga"
+
+#: View/Widget/DateTimeWidget.php:545
+msgid "June"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:546
+msgid "July"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:547
+msgid "August"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:548
+msgid "September"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:549
+msgid "October"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:550
+msgid "November"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:551
+msgid "December"
+msgstr ""

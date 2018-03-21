@@ -1,0 +1,29 @@
+{
+  "name": "koletor",
+  "description": "Sistema de coleta de produtos para Verejistas",
+  "main": "",
+  "authors": [
+    "Daniel"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "jquery.maskedinput": "^1.4.1",
+    "jquery-ui": "^1.12.1",
+    "blueimp-file-upload": "^9.15.0",
+    "sweetalert2": "^6.4.3",
+    "lightbox2": "^2.9.0",
+    "select2": "^4.0.3"
+  }
+}
